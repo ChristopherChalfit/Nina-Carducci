@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<!-- Script JS-->
-	<script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.min.js"></script>
 	<script defer src="./assets/scripts.min.js"></script>
@@ -70,7 +70,7 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="icon instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="icon instagram" weight="20" height="20"></a></li>
 		</ul>
 	</div>
 </nav>
@@ -84,13 +84,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100 h-100" alt="Traverse le passage piéton">
+				<img src="./assets/images/slider/ryoji-iwata.webp" srcset="./assets/images/slider/ryoji-iwata.webp 600w" class="d-block w-100 h-100" alt="Traverse le passage piéton">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green.webp" class="d-block w-100 h-100" alt="Deux hommes a un festival"loading="lazy">
+				<img src="./assets/images/slider/nicholas-green.webp" srcset="./assets/images/slider/nicholas-green.webp 600w" class="d-block w-100 h-100" alt="Deux hommes a un festival"loading="lazy">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros.webp" class="d-block w-100 h-100" alt="Les mariés qui s'embrassent"loading="lazy">
+				<img src="./assets/images/slider/edward-cisneros.webp" srcset="./assets/images/slider/edward-cisneros.webp 600w" class="d-block w-100 h-100" alt="Les mariés qui s'embrassent"loading="lazy">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -106,7 +106,7 @@
 <main>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" srcset="./assets/images/nina.webp 400w" alt="Photo de nina" width="auto" height="auto">
+		<img src="./assets/images/nina.webp" srcset="./assets/images/nina.webp 400w" alt="Photo de nina" weight="200" height="200">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
@@ -201,7 +201,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="Appareil photo argentique">
+			<img src="./assets/images/camera.webp" alt="Appareil photo argentique" weight="200" height="200">
 		</div>
 	</div>
 </div>
